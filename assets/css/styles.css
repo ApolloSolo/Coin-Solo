@@ -1,0 +1,61 @@
+:root{
+    --prime-font: 'Poppins', sans-serif;
+    --second-font: 'Prompt', sans-serif;
+    --tertiary-font: 'Tourney', cursive;
+    --prime-bg-color: rgb(240, 255, 255);
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  padding: 0;
+  margin: 0;
+  font-family: var(--prime-font);
+  background-color: var(--prime-bg-color);
+}
+
+h1, h2, h3, h4, h5, h6{
+    font-family: var(--second-font);
+}
+
+/* NAV/HEARER */
+.nav-color {
+  background-color: #006992;
+}
+/* NAV/HEARER END */
+
+/* MAIN SECTION */
+#main {
+  height: 100%;
+}
+
+.welcome-img{
+    display: block;
+    width: 50%;
+    height: auto;
+    margin: 0 auto;
+    border-radius: 0.25rem;
+}
+/* MAIN SECTION END */
+
+/* Market Coins */
+
+.card-img-top{
+    width: 50%;
+    padding: 1rem;
+    margin: 0 auto;
+}
+
+/* FOOTER */
+#footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 1rem;
+  margin-top: 1rem;
+  background-color: #006992;
+  color: azure;
+}
+/* FOOTER END */
